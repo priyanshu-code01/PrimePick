@@ -5,7 +5,7 @@ import { ShopContext } from '../context/ShopContext'
 
 const Navbar = () => {
 
-    const { setShowSearch } = useContext(ShopContext)
+    const { setShowSearch, getCartCount } = useContext(ShopContext)
 
     const navClasses = ({ isActive }) => `flex flex-col items-center gap-1 hover:text-black ${isActive ? 'border-b-2 border-gray-700 text-black' : 'border-none'}`
 
@@ -53,7 +53,7 @@ const Navbar = () => {
 
                 <Link to='/cart' className='relative'>
                     <img src={assets.cart_icon} className='w-5 min-w-5' alt="" />
-                    <p className="absolute -right-1.5 -bottom-1.5 w-4 text-center leading-4 bg-black text-white aspect-square rounded-full text-[8px]">9</p>
+                    <p className="absolute -right-1.5 -bottom-1.5 w-4 text-center leading-4 bg-black text-white aspect-square rounded-full text-[8px]">{getCartCount()}</p>
                 </Link>
 
                 <img src={assets.menu_icon} onClick={() => setVisible(true)} className='w-5 cursor-pointer sm:hidden' alt="" />
