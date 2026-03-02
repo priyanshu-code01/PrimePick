@@ -1,16 +1,96 @@
-# React + Vite
+# 🛒 PrimePick – E-Commerce Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+PrimePick is a modern and responsive e-commerce web application built using React.  
+It provides a smooth shopping experience with product browsing, cart management, and order placement.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- 🛍️ Product listing with categories & collections
+- 🔍 Search functionality for products
+- 🛒 Add to Cart & Remove from Cart
+- ➕➖ Quantity management & cart total calculation
+- 📦 Order placement flow
+- ♻️ Reusable React components
+- 🌐 Global state management using Context API
+- 📱 Fully responsive UI
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** React.js
+- **State Management:** Context API
+- **Styling:** CSS / Tailwind CSS
+- **Build Tool:** Vite
+- **Deployment:** Vercel
+
+---
+
+## 📂 Project Structure
+src/
+│── assets/
+│── components/
+│ ├── Navbar.jsx
+│ ├── Hero.jsx
+│ ├── ProductItem.jsx
+│ ├── CartTotal.jsx
+│ ├── Footer.jsx
+│── context/
+│ └── ShopContext.jsx
+│── pages/
+│ ├── Home.jsx
+│ ├── Product.jsx
+│ ├── Collection.jsx
+│ ├── Cart.jsx
+│ ├── Login.jsx
+│ ├── Orders.jsx
+│── App.jsx
+│── main.jsx
+
+
+---
+
+## ⚙️ Installation & Setup
+
+1. Clone the repository  
+```bash
+git clone https://github.com/your-username/primepick.git
+```
+
+2. Navigate to project folder
+```bash
+cd primepick
+```
+
+3. Install dependencies
+```bash
+npm install
+```
+
+4. Run the project
+```bash
+npm run dev
+```
+
+🌍 Live Demo
+
+🔗 https://prime-pick-dun.vercel.app/
+
+🎯 Learning Outcomes
+
+Hands-on experience with React component architecture
+
+Context API for global state management
+
+Building scalable and reusable UI components
+
+Real-world e-commerce application workflow
+
+👨‍💻 Author
+
+Priyanshu Singh <br/>
+Frontend Developer | React Enthusiast
+
+⭐ If you like this project, don’t forget to give it a star!
