@@ -29,6 +29,7 @@ It provides a smooth shopping experience with product browsing, cart management,
 ---
 
 ## 📂 Project Structure
+```
 src/
 │── assets/
 │── components/
@@ -48,8 +49,7 @@ src/
 │ ├── Orders.jsx
 │── App.jsx
 │── main.jsx
-
-
+```
 ---
 
 ## ⚙️ Installation & Setup
