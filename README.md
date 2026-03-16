@@ -56,7 +56,7 @@ src/
 
 1. Clone the repository  
 ```bash
-git clone https://github.com/your-username/primepick.git
+git clone https://github.com/priyanshu-code01/primepick.git
 ```
 
 2. Navigate to project folder
